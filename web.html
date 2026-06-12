@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap:10px;
+            font-size: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+        #right{
+            flex: 1;
+        }
+        #right h1{
+           text-align: center;
+           color: aliceblue;
+        }
+        #right p{
+            text-align: center;
+            color: aliceblue;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;          
+
+        }
+        #container1{
+            background-color:lightcoral;
+            margin-bottom: 50px;
+             background-image: url("back.png");
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+        }
+        button{
+            background-color: rgb(38, 36, 36);
+            color: white;
+            margin-bottom: 30px;
+        }
+        h3{
+            text-align: center;
+            font-size: 20px; 
+        }
+        footer p{
+            text-align: center;
+            font-size: 10px;
+        }
+        a:hover{
+            background-color: brown;
+        }
+        .menu{
+            margin-right: 2px;
+            color: aliceblue;
+            gap: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container1">
+    <div id="navbar">
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="Pages">Pages</a></li>
+            <li><a href="Partfollow">Portfolio</a></li>
+            <li><a href="BLog">Blog</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="Elements">Elements</a></li>
+        </ul>
+        <div class="menu">&#9776;</div>
+    </div>
+    <section id="right">
+        <h1>ASSEMBLE</h1>
+        <P>Beautiful templates for your awesome portfolio projects</P>
+    </section>
+    <div id="container">
+        <button>PURCHASE NOW</button>
+    </div>
+</div>
+<footer>
+    <h3>18 Beautiful Homapages</h3>
+    <p>With Assemble you can choose from a stunning collection of 18 carefully <br>designed and distinct homepages examples</p>
+</footer>
+</body>
+</html>
